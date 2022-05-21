@@ -7,6 +7,7 @@
   width: 80%;
   border: 2px solid rgb(221, 221, 221);
   border-radius: 5px;
+  padding: 10px;
 }
 
 .sec1 span {
@@ -104,8 +105,6 @@
   /* box-shadow: 21px 0px 41px -18px; */
 }
 
-
-}
 .sec2 {
   font-size: 12px;
   padding: 10px;
@@ -214,8 +213,13 @@
 @media screen and (max-width: 1140px) {
   .sec {
     flex-direction: column;
+    justify-content: center;
+  }
+  .sec1 {
+    margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 1140px) {
   .form {
     flex-direction: column;
